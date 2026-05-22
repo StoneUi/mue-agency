@@ -6,7 +6,7 @@
 
 ### Critères de sélection pour la stack technique de la MVP
 
-- Aucun temps d'apprentissage n'est requis pour l'�quipe.
+- Aucun temps d'apprentissage n'est requis pour l'équipe.
 - Capacité de déploiement d'une démonstration rapide.
 - Contrainte budgétaire nulle (coût d'infrastructure initial de zéro).
 
@@ -56,6 +56,6 @@ README.md
 |-----------|--------------------------|
 | `main`    | Production               |
 | `agence`  | Site de l'agence         |
-| `projet`  | Pour le projet lui-m�me  |
+| `projet`  | Pour le projet lui-même  |
 | `Elea`    | Branche de travail       |
 | `Giovani` | Branche de travail       |
