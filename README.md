@@ -1,3 +1,7 @@
+/mue-agency/main/README.md = socle technique Principal générale
+/mue-agency/projet/readmeproject.md = socle technique
+
+
 ## Socle Technique
 
 > **NB :** Les critères sont définis indépendamment de la solution.
