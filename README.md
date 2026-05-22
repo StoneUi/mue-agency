@@ -1,5 +1,3 @@
-# Agence Mue Site Vitrine
-
 ## Socle Technique
 
 > **NB :** Les critères sont définis indépendamment de la solution.
