@@ -14,7 +14,7 @@
 
 ### Comparatif des stacks ? notation /5
 
-| Crit�res                   | Next.js | Vue.js / Node.js | React / Node.js | NoCode |
+| Critères                   | Next.js | Vue.js / Node.js | React / Node.js | NoCode |
 |----------------------------|:-------:|:----------------:|:---------------:|:------:|
 | Maîtrise                   |    5    |        3         |        4        |   3    |
 | Rapidité de développement  |    4    |        3         |        4        |   3    |
