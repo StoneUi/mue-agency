@@ -1,14 +1,14 @@
-# Agence Mue ? Site Vitrine
+# Agence Mue Site Vitrine
 
 ## Socle Technique
 
-> **NB :** Les crit�res sont d�finis ind�pendamment de la solution.
+> **NB :** Les critères sont définis indépendamment de la solution.
 
-### Crit�res de s�lection pour la stack technique de la MVP
+### Critères de sélection pour la stack technique de la MVP
 
 - Aucun temps d'apprentissage n'est requis pour l'�quipe.
-- Capacit� de d�ploiement d'une d�monstration rapide.
-- Contrainte budg�taire nulle (co�t d'infrastructure initial de z�ro).
+- Capacité de déploiement d'une démonstration rapide.
+- Contrainte budgétaire nulle (coût d'infrastructure initial de zéro).
 
 ---
 
@@ -16,32 +16,32 @@
 
 | Crit�res                   | Next.js | Vue.js / Node.js | React / Node.js | NoCode |
 |----------------------------|:-------:|:----------------:|:---------------:|:------:|
-| Ma�trise                   |    5    |        3         |        4        |   3    |
-| Rapidit� de d�veloppement  |    4    |        3         |        4        |   3    |
-| Facilit� de d�ploiement    |    5    |        3         |        4        |   4    |
-| Flexibilit�                |    5    |        4         |        4        |   3    |
+| Maîtrise                   |    5    |        3         |        4        |   3    |
+| Rapidité de développement  |    4    |        3         |        4        |   3    |
+| Facilité de déploiement    |    5    |        3         |        4        |   4    |
+| Flexibilité                |    5    |        4         |        4        |   3    |
 | **Score total**            |  **19** |      **13**      |     **16**      | **13** |
 
 ---
 
 ### Solution retenue : Next.js
 
-Ce choix est justifi� par une ma�trise totale de la technologie par l'�quipe, un d�ploiement simplifi� via Vercel et une parfaite ad�quation pour la cr�ation de web apps, de tableaux de bord et de pages d'atterrissage.
+Ce choix est justifié par une maîtrise totale de la technologie par l'équipe, un déploiement simplifié via Vercel et une parfaite adéquation pour la création de web apps, de tableaux de bord et de pages d'atterrissage.
 
-> **Note :** La stack technique pourra faire l'objet d'ajustements ult�rieurs en fonction de l'�volution des besoins fonctionnels et de la nature de la solution finale.
+> **Note :** La stack technique pourra faire l'objet d'ajustements ultérieurs en fonction de l'évolution des besoins fonctionnels et de la nature de la solution finale.
 
 ---
 
-## Structure de d�veloppement
+## Structure de développement
 
 ### Organisation du repo
 
 ```
 /src
-??? frontend/        ? Next.js
-??? backend/api/     ? Next.js
-??? .env
-??? README.md
+frontend/        
+backend/
+.env
+README.md
 ```
 
 ---
