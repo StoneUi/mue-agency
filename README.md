@@ -46,8 +46,8 @@ Structure de développement
  Organisation du repo
 
   /src
-  ├── frontend/       → Next.js
-  ├── backend/api      → Next.js                                                                                                                                               
+  ├── frontend/
+  ├── backend/api                                                                                                                                              
   ├── .env   
   └── README.md
 
