@@ -1,16 +1,25 @@
-## Socle Technique
+Socle tech projet
 
-> **NB :** Les critères sont définis indépendamment de la solution.
 
-### Critères de sélection pour la stack technique de la MVP
+Notre solution n'est pas décidé, 
+Les critères sont définis indépendamment de la solution
 
-- Aucun temps d'apprentissage n'est requis pour l'équipe.
-- Capacité de déploiement d'une démonstration rapide.
-- Contrainte budgétaire nulle (coût d'infrastructure initial de zéro).
+Environnement idéale
 
----
+- Next.js
+- Tailwind
+- PostgreSQL via Docker
+- Vercel
 
-### Comparatif des stacks ? notation /5
+Critères de sélection pour la stack technique de la MVP
+
+Aucun temps d'apprentissage n'est requis pour l'équipe.
+Capacité de déploiement d'une démonstration rapide.
+Contrainte budgétaire nulle (coût d'infrastructure initial de zéro).
+
+
+Pour un développement rapide,  les stacks : listés et notation /5
+
 
 | Critères                   | Next.js | Vue.js / Node.js | React / Node.js | NoCode |
 |----------------------------|:-------:|:----------------:|:---------------:|:------:|
@@ -20,40 +29,37 @@
 | Flexibilité                |    5    |        4         |        4        |   3    |
 | **Score total**            |  **19** |      **13**      |     **16**      | **13** |
 
----
+Solution retenue : Next.js. Ce choix est justifié par une maîtrise totale de la technologie par l'équipe, un déploiement simplifié via Vercel et une parfaite adéquation pour la création de web apps, de tableaux de bord et de pages d'atterrissage.
 
-### Solution retenue : Next.js
+Note : La stack technique pourra faire l'objet d'ajustements ultérieurs en fonction de l'évolution des besoins fonctionnels et de la nature de la solution finale.
 
-Ce choix est justifié par une maîtrise totale de la technologie par l'équipe, un déploiement simplifié via Vercel et une parfaite adéquation pour la création de web apps, de tableaux de bord et de pages d'atterrissage.
 
-> **Note :** La stack technique pourra faire l'objet d'ajustements ultérieurs en fonction de l'évolution des besoins fonctionnels et de la nature de la solution finale.
+A envisager 
 
----
+  Puissance relationnelle et géographique :   L'utilisation de PostgreSQL en arrière-plan permet d'activer facilement l'extension   PostGIS   pour les requêtes de géolocalisation (calcul de distance entre profils), une fonctionnalité indispensable pour une application de rencontres.
 
-## Structure de développement
+  Chatbot  
+  Commande vocale  
+     
 
-### Organisation du repo
+Structure de développement
+ Organisation du repo
 
-```
-/src
-frontend/        
-backend/
-.env
-README.md
-```
+  /src
+  ├── frontend/       → Next.js
+  ├── backend/api      → Next.js                                                                                                                                               
+  ├── .env   
+  └── README.md
 
----
 
-## Liens utiles
+Lien Utils : 
 
-- **GitHub :** [https://github.com/StoneUi/mue-agency.git](https://github.com/StoneUi/mue-agency.git)
+Github https://github.com/StoneUi/mue-agency.git
 
-### Branches
+Branch :
 
-| Branche   | Usage                    |
-|-----------|--------------------------|
-| `main`    | Production               |
-| `agence`  | Site de l'agence         |
-| `projet`  | Pour le projet lui-même  |
-| `Elea`    | Branche de travail       |
-| `Giovani` | Branche de travail       |
+main → 
+agence→ site de l’agence
+projet → Pour le projet lui même
+Elea → branch de travail
+Giovani → branch de travail
